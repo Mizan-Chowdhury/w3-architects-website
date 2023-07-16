@@ -32,7 +32,6 @@ nav {
 }
 nav > ul {
   display: flex;
-  gap: 50px;
 }
 .nav-logo {
   font-size: 2rem;
@@ -42,6 +41,7 @@ nav a {
   color: var(--dark-02, #424242);
   font-size: 1.1rem;
   font-weight: 500;
+  margin-right: 20px;
 }
 
 /* banner styles */
@@ -63,4 +63,25 @@ nav a {
 }
 .banner-img {
   width: 100%;
+  margin-top: -60px;
+}
+
+/* media quaries styles */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  header {
+    padding: 20px;
+  }
+  .banner-heading {
+    font-size: 2.2rem;
+  }
+  .banner-description {
+    font-size: 0.8rem;
+  }
+  nav a {
+    font-size: 0.9rem;
+  }
 }

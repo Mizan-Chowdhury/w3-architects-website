@@ -245,14 +245,15 @@ nav a {
 
 /* foooter styles */
 footer {
-  padding: 5rem 10rem;
+  padding: 2rem 10rem;
 }
 .footer-div {
+  font-size: 0.9rem;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 5px;
   background: #fff4e7;
   color: var(--dark-02, #424242);
-  padding: 2rem;
+  padding:2rem;
 }
 
 /* media quaries styles */
@@ -297,7 +298,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1rem;
-    padding-left:1rem;
+    padding-left: 1rem;
   }
   .sponsors-images img {
     width: 30%;
@@ -310,5 +311,8 @@ footer {
   }
   .architects-info {
     position: relative;
+  }
+  .footer-div{
+    font-size: 0.8rem;
   }
 }

@@ -253,7 +253,7 @@ footer {
   border-radius: 5px;
   background: #fff4e7;
   color: var(--dark-02, #424242);
-  padding:2rem;
+  padding: 2rem;
 }
 
 /* media quaries styles */
@@ -297,22 +297,21 @@ footer {
   .facts-card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 1rem;
-    padding-left: 1rem;
+    row-gap: 0.8rem;
   }
   .sponsors-images img {
     width: 30%;
   }
 
   .features-img img {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     margin-left: 0;
   }
   .architects-info {
     position: relative;
   }
-  .footer-div{
+  .footer-div {
     font-size: 0.8rem;
   }
 }
